@@ -1,0 +1,149 @@
+<!-- portfolio.html -->
+<!-- Author: Michael Mosby -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="final.css">
+
+    <!-- Page-specific styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1b5e20;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            max-width: 260px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .gallery-caption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #2e7d32;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Portfolio</h1>
+    <p>Here are some of my projects and work samples.</p>
+
+    <!-- Portfolio Gallery -->
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <img src="First Use of Unreal.png" alt="Unreal Engine Map">
+            <div class="gallery-caption">
+                Project 1 – A map created in Unreal Engine in one week with no prior experience, demonstrating rapid learning and level design fundamentals.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://inkpusheen.itch.io/maxs-uat-sprint" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2026-02-04 192143.png" alt="Platformer Game">
+            </a>
+            <div class="gallery-caption">
+                Project 2 – High-speed platformer built in 48 hours with an emphasis on responsive controls and pacing.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://www.construct.net/en/free-online-games/topdown-73700/play" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2025-08-10 185546.png" alt="Dungeon Crawler">
+            </a>
+            <div class="gallery-caption">
+                Project 3 – A dungeon crawler created in Construct 3. Click the image to play and explore the mechanics.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Weather wars.jpg" alt="Card Game Design">
+            <div class="gallery-caption">
+                Project 4 – Cards from a small card game designed with a team of five, where I served as the lead designer.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Dynasties of myth.jpg" alt="Board Game Assets">
+            <div class="gallery-caption">
+                Project 5 – Assets from a board game I am developing with a partner, highlighting collaborative design and visual planning.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://youtu.be/5PiEH_s24vw" target="_blank" rel="noopener noreferrer">
+                <img src="Unreal arena.png" alt="Unreal Arena">
+            </a>
+            <div class="gallery-caption">
+                Project 6 – Free-for-all arena built in Unreal Engine using Lyra. Click to watch gameplay with commentary.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://mastermjm7.itch.io/whispers-beyond-demo" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2026-02-04 193125.png" alt="Narrative Game">
+            </a>
+            <div class="gallery-caption">
+                Project 7 – Narrative-driven exploration game centered on ghosts, moral choices, and player alignment.
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="https://mastermjm7.itch.io/split-shift-demo" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2026-02-04 193301.png" alt="Action Game">
+            </a>
+            <div class="gallery-caption">
+                Project 8 – Third-person action game focused on environmental interaction, enemy encounters, and a weak-point boss fight.
+            </div>
+        </div>
+
+    </div>
+
+    <a class="back-link" href="Index.html">Back to Home</a>
+
+</body>
+</html>
